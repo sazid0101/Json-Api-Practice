@@ -4,16 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Json-Api Practice</title>
+    <style>
+        .user{
+            background-color: aqua;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Json-Api Practice</h1>
-    <button onclick="onLoad()">click me</button>
+
+    <section>
+        <button onclick="onLoad()">click to see name & mail id</button>
 
     <div class="ul-container">
         <ul id="ul-list"></ul>
         <ul id="ul-list2"></ul>
     </div>
+    </section>
 
+    <section>
+        <button onclick="onLoad2()">click to see user details</button>
+        <div id="post-container">
+        </div>
+    </section>
+
+    <script src="js/fatch2.js"></script>
     <script src="js/fatch.js"></script>
 </body>
 </html>
